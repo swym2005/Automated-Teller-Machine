@@ -1,0 +1,35 @@
+# ATM Simulation System - SRV Bank
+
+This is a simple command-line based ATM simulation system written in C++. It mimics the functionality of a basic ATM, allowing users to check balance, deposit money, withdraw money, and create new accounts.
+
+## Features
+
+- User authentication using account number and PIN.
+- View current balance.
+- Deposit funds.
+- Withdraw funds with balance checks.
+- Create new user accounts.
+- Data persistence using text files (`accountnumdata.txt`, `pindata.txt`, `balancedata.txt`).
+
+## File Structure
+
+- `atm.cpp` - Main source code implementing the ATM system.
+- `accountnumdata.txt` - Stores account numbers.
+- `pindata.txt` - Stores account PINs.
+- `balancedata.txt` - Stores account balances.
+
+## Getting Started
+
+### Prerequisites
+
+- A C++ compiler like `g++`
+- A terminal/command prompt
+
+### Compiling the Program
+
+```bash
+g++ atm.cpp -o atm
+
+## Credits
+- Made by Swayam Dalal.
+- Its free to use its open source.
